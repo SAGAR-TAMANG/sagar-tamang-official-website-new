@@ -1,0 +1,83 @@
+<main id="main">
+  <div class="hero">
+    <section class="hero-content">
+      <div class="text-center py-5">
+        <h1 class="display-2 mb-3">
+          <span class="text-outline text-white">
+            Sagar Tamang
+          </span> 
+          <br>
+          <span class="text-ai-2 text-white display-6">
+            Projects
+          </span></h1>
+        <p class="lead text-white text-outline">proficient in artificial intellgience,<br>django full-stack and research.</p>
+        <div>
+          <button class="btn btn-primary me-2" hx-get="/contact.html" hx-target="#main">Contact</button>
+          <!-- <a href="https://github.com/SAGAR-TAMANG/therapist-ai" target="_blank"> -->
+            <button class="btn btn-outline-primary" hx-get="/index-htmx.html" hx-target="#main">
+              Home <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          <!-- </a> -->
+        </div>
+      </div>
+      <img src="./img/mouse-scroll-dark.png" alt="" width="50px" class="scroll-mouse">
+    </section>
+  </div>
+
+  <div class="container text-white">
+    <div class="row">
+      <!-- grid element -->
+      <div class="col-12 col-md-5 d-flex justify-content align-items-center">
+        <img src="/img/projects/mockup-therapist.png" alt="" width="100%">
+      </div>
+      <div class="col-12 col-md-7 d-flex justify-content-center align-items-center">
+        <div class="fs-4">
+          <a href="https://therapy.feynmanpi.com/" target="_blank">
+            AI Therapist
+          </a>
+          <br>
+          Your personal AI-powered mental health support,
+          available 24/7.
+        </div>
+      </div>
+      
+      <!-- grid element -->
+      <div class="col-12 col-md-5 d-flex justify-content align-items-center">
+        <img src="/img/projects/mockup-ssb.png" alt="" width="100%">
+      </div>
+      <div class="col-12 col-md-7 d-flex justify-content-center align-items-center">
+        <div class="fs-4">
+          <a href="https://ssb.feynmanpi.com/" target="_blank">
+            SSB Feynman Pi
+          </a>
+          <br>
+          AI powered Service Selection Board (SSB) preparation software - Feynman Pi.
+        </div>
+      </div>
+      
+      <!-- grid element -->
+      <div class="col-12 col-md-5 d-flex justify-content align-items-center">
+        <img src="/img/projects/mockup-thegreathimalayas.png" alt="" width="100%">
+      </div>
+      <div class="col-12 col-md-7 d-flex justify-content-center align-items-center">
+        <div class="fs-4">
+          <a href="https://thegreathimalayas.sagartamang.com//" target="_blank">
+            Nepal: The Great Himalayas
+          </a>
+          <br>
+          Great Himalayas of Nepal, parallax 3D website brought to you by Sagar Tamang.
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+  gsap.to(".scroll-mouse", {
+    y: 25,
+    duration: 1,
+    yoyo: true,
+    repeat: -1,
+    ease: "power1.inOut"
+});
+</script>
