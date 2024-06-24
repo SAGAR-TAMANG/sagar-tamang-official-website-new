@@ -18,11 +18,14 @@
         <div>
           <button class="btn btn-primary me-2" hx-get="/contact.html" hx-target="#main">Contact</button>
           <!-- <a href="https://github.com/SAGAR-TAMANG/therapist-ai" target="_blank"> -->
-            <button class="btn btn-outline-primary" hx-get="/index-htmx.html" hx-target="#main">
+            <button class="btn btn-outline-primary" hx-get="/index-htmx.html" hx-target="#main" hx-indicator="#loader">
               Home <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </button>
           <!-- </a> -->
         </div>
+        <span class="htmx-indicator" id="loader">
+          <img src="./img/loading3.gif" alt="loading..." height="50px">
+        </span>
       </div>
     </section>
   </div>
