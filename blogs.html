@@ -36,9 +36,9 @@
           <div id="upa">
             maybe in next update..
           </div>
-          <!-- <div id="upa2" style="display: none;">
-            <a href="#" hx-get="/upasana.html" hx-target="#main">i am sorry upa..</a>
-          </div> -->
+          <div id="upa2" style="display: none;">
+            <a href="#" hx-get="/upasana.html" hx-target="#main">hey..</a>
+          </div>
         </div>
     </div>
   </div>
@@ -53,14 +53,14 @@
     ease: "power1.inOut"
 });
 
-  // function waitForTwentySeconds() {
-  //   setTimeout(function() {
-  //     document.getElementById('upa').style.display = 'none';
-  //     document.getElementById('upa2').style.display = 'block';
-  //   }, 60000); // 20000 milliseconds = 20 seconds
-  // }
-  //
-  // waitForTwentySeconds();
+   function waitForTwentySeconds() {
+     setTimeout(function() {
+       document.getElementById('upa').style.display = 'none';
+       document.getElementById('upa2').style.display = 'block';
+     }, 20000); // 20000 milliseconds = 20 seconds
+   }
+  
+   waitForTwentySeconds();
 
   document.getElementById('btn-home').classList.remove('active');
 </script>
