@@ -37,7 +37,11 @@
             maybe in next update..
           </div>
           <div id="upa2" style="display: none;">
-            <a href="#" hx-get="/upasana.html" hx-target="#main">hey..</a>
+            Hey, do you like life fast or slowed? <br>
+            <div class="d-flex justify-content-center">
+              <a href="#" hx-get="/upasana-fast.html" hx-target="#main" class="me-3">Fast!</a>
+              <a href="#" hx-get="/upasana.html" hx-target="#main">Slow..</a>
+            </div>
           </div>
         </div>
     </div>
@@ -57,7 +61,7 @@
      setTimeout(function() {
        document.getElementById('upa').style.display = 'none';
        document.getElementById('upa2').style.display = 'block';
-     }, 20000); // 20000 milliseconds = 20 seconds
+     }, 30000); // 20000 milliseconds = 20 seconds
    }
   
    waitForTwentySeconds();
