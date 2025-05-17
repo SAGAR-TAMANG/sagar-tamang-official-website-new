@@ -2,4 +2,4 @@
 
 Fully Developed by [Sagar Tamang](https://github.com/SAGAR-TAMANG).
 
-Hosted Here: [https://sagar-tamang.github.io/official-website/](https://sagar-tamang.github.io/official-website/)
+Hosted Here: [sagartamang.com/](sagartamang.com/)
